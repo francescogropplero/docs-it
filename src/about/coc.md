@@ -23,7 +23,7 @@ Altri comportamenti che potrebbero essere ragionevolmente considerati inappropri
 
 ## Le nostre responsabilità {#our-responsibilities}
 
-I responsabili del progetto sono responsabili di chiarire gli standard di comportamento accettabile e ci si aspetta che prendano azioni correttive adeguate ed equilibrate in risposta a qualsiasi comportamento inaccettabile.
+I responsabili del progetto sono responsabili di chiarire gli standard di comportamento accettabile e ci si aspetta che prendano azioni correttive equilibrate in risposta a qualsiasi comportamento inaccettabile.
 
 I responsabili del progetto hanno il diritto e la responsabilità di rimuovere, modificare o respingere commenti, commit, codice, modifiche wiki, problemi e altri generi di contributi che non sono conformi al nostro Codice di Condotta, o di bandire temporaneamente o permanentemente qualsiasi collaboratore per altri comportamenti che considerano inappropriati, minacciosi, offensivi o dannosi.
 

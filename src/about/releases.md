@@ -52,13 +52,13 @@ Se stai usando TypeScript, puoi utilizzare un intervallo di versioni semver che 
 
 Una nuova versione **minor** del compilatore Vue potrebbe generare codice che non è compatibile con la runtime Vue di una versione minor precedente. Ad esempio, il codice generato dal compilatore Vue 3.2 potrebbe non essere completamente compatibile se consumato dalla runtime Vue della versione 3.1.
 
-Questo è un problema che riguarda solo gli autori di librerie, perché nelle applicazioni, la versione del compilatore e la versione della runtime sono sempre le stesse. Un mismatch di versione può verificarsi solo se si distribuisce il codice del componente Vue precompilato come pacchetto e un consumatore lo utilizza in un progetto che utilizza una versione più vecchia di Vue. Di conseguenza, il tuo pacchetto potrebbe dover dichiarare esplicitamente una versione minor minima di Vue richiesta.
+Questo è un problema che riguarda solo gli autori di librerie, perché nelle applicazioni, la versione del compilatore è sempre la stessa. Un mismatch di versione può verificarsi solo se si distribuisce il codice del componente Vue precompilato come pacchetto e un consumatore lo utilizza in un progetto che utilizza una versione più vecchia di Vue. Quindi, il tuo pacchetto potrebbe dover dichiarare una versione minima di Vue richiesta.
 
 ## Pre-rilasci {#pre-releases}
 
 Gli update minori di solito passano attraverso un numero non fisso di versioni beta. Gli update più grandi passeranno attraverso una fase alpha e una fase beta.
 
-Gli update pre-rilascio sono pensati per i test di integrazione e stabilità, e per i primi utenti che desiderano fornire feedback sulle funzionalità non ancora stabili. Non utilizzare assolutamente le versioni pre-rilascio in production. Tutte le versioni pre-rilascio sono considerate non stabili e potrebbero includere modifiche incompatibili tra loro, quindi assicurati di specificare esattamente le versioni corrette quando utilizzi le versioni pre-rilascio.
+Gli update pre-rilascio sono per i test di integrazione e stabilità, e per i primi utenti che desiderano fornire feedback sulle funzionalità non ancora stabili. Non utilizzare le versioni pre-rilascio in production. Tutte le versioni pre-rilascio sono considerate non stabili, quindi assicurati di specificare le versioni corrette quando utilizzi le versioni pre-rilascio.
 
 ## Deprecare features {#deprecations}
 
